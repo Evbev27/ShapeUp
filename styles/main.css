@@ -1,0 +1,9 @@
+body{font-family: sans-serif}
+h3 a:any-link{ color: maroon}
+li a:any-link{ color: steelblue; font-weight:bold}
+li a:hover{color:maroon}
+li a:focus{color:maroon}
+h1{color:steelblue; text-shadow: 2px 2px 4px steelblue; font-style: italic; font-size: 40px}
+img{float:left}
+li{padding-bottom: 4px}
+footer{text-align: center; font-size: 14px}
