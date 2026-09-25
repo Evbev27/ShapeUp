@@ -1,5 +1,5 @@
 html{font-family: sans-serif; }
-body{width: 900px;}
+body{width: 1200px;}
 h3 a:any-link{ color: maroon}
 li a:any-link{ color: steelblue; font-weight:bold}
 li a:hover{color:maroon}
@@ -9,9 +9,11 @@ img{float:left}
 li{padding-bottom: 4px}
 header{background-image: linear-gradient(white,lightsteelblue); padding-top: 4px;
   padding-bottom: 8px; border-bottom:2px steelblue}
-aside{float: left; width: 245px; padding-right: 15px; padding-left: 15px}
-aside h2{color:maroon}
-main{float: right; width: 585px; padding-right: 20px; padding-left: 20px}
+#addres{float: left; width: 245px; padding-right: 15px; padding-left: 15px}
+#addres h2{color:maroon}
+#prep{float:right; width:285px; padding-right: 15px}
+#prep h2{color:maroon}
+main{float: left; width: 585px; padding-right: 20px; padding-left: 20px}
 footer{text-align: center; font-size: 14px; background-color: steelblue;
   color:white; padding-top: 6px; padding-bottom: 6px; margin-top: 100%}
 
