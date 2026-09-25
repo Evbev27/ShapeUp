@@ -1,6 +1,6 @@
 html{font-family: sans-serif; }
 body{width: 1200px;}
-h3 a:any-link{ color: maroon}
+h3{ color: maroon}
 li a:any-link{ color: steelblue; font-weight:bold}
 li a:hover{color:maroon}
 li a:focus{color:maroon}
