@@ -19,4 +19,15 @@ aside h2{color:maroon}
 main{float: right; width: 585px; padding-right: 20px; padding-left: 20px}
 footer{text-align: center; font-size: 14px; background-color: steelblue;
   color:white; padding-top: 6px; padding-bottom: 6px; margin-top: 100%}
+.dropdown{display: inline-block; position: relative;}
+.dropdown-content{
+  background-color: steelblue;
+  min-width: 200px;
+  font-size: 12px;
+  padding-bottom: 12px;
+  padding-top: 20px;
+  position: absolute;
+  display: none;
+}
+.dropdown:hover .dropdown-content{display: block;}
 
