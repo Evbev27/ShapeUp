@@ -2,14 +2,79 @@
 
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Shape Up! | BMI</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="icon" href="../favicon.ico">
+  <title>Shape Up!</title>
 </head>
-
+<header>
+  <a href="../index.html"><img src="../images/shape_up_logo.png" alt="Shape Up logo"></a>
+  <h1>Shape Up!</h1>
+  <h2>Find the best fit for you</h2>
+</header>
+<div class="navbar">
+  <a href="../index.html">Home</a>
+  <a href="../strength/index.html">Strength Training</a>
+  <a href="../cardio/index.html">Cardio Exercises</a>
+  <div class="dropdown">
+    <a href="../stress/index.html">Stress Relief</a>
+    <div class="dropdown-content">
+      <a href="../stress/index.html">What is Stress?</a>
+      <a href="../stress/tips.html">5 Helpful Tips</a>
+      <a href="../stress/meditate.html">Meditation</a>
+      <a href="../stress/vipassana.html">Vipassana</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="index.html" id="currentpage">Healthy Diet</a>
+    <div class="dropdown-content">
+      <a href="index.html">Why a Healthy Diet?</a>
+      <a href="meals.html">Plan Your Meals</a>
+      <a href="calories.html">Count Your Calories</a>
+      <a href="bmi.html">Calculate Your BMI</a>
+    </div>
+  </div>
+</div>
 <body>
-	<main>
-	    <h1>Body Mass Index</h1>
-		<h2>Under Construction</h2>
-	</main>
+<aside>
+  <h2>Additional resources</h2>
+  <ul>
+    <li><a href="#">Physical activity and health</a></li>
+    <li><a href="#">Stretching exercises</a></li>
+    <li><a href="#">Strength training</a></li>
+    <li><a href="#">Cardiovascular training</a></li>
+    <li><a href="#">Yoga workout</a></li>
+  </ul>
+</aside>
+<main>
+  <h2>What is a Body Mass Index?</h2>
+  <p>Body mass index (BMI) is a measure of a person's body fat based on his or her height and weight.
+     It can be used to determine if you are underweight, normal, overweight, or obese.</p>
+  <h3>Calculate your Body Mass Index</h3>
+  <p>Use the form that follows to calculate your BMI:</p>
+  <form>
+    <fieldset>
+      <legend><b>Enter your information</b></legend>
+      <br><label for="hgt">Height: </label>
+      <input type="text" id="hgt" size="8">
+      <label for="hgt">ft. </label>
+      <input type="text" id="inc" size="8">
+      <label for="inc">in. </label><br><br>
+      <label for="wgt">Weight: </label>
+      <input type="text" id="wgt" size="8">
+      <label for="wgt">lbs. </label><br><br>
+    </fieldset>
+  </form>
+  <h3>What do my results mean? Health authorities agree that:</h3>
+  <ul>
+    <li>People with a BMI of less than 18.5 are underweight.</li>
+    <li>A BMI of between 18.5 and 25 is ideal.</li>
+    <li>People with a BMI between 25 and 30 are considered overweight.</li>
+    <li>People with a BMI over 30 are considered obese.</li>
+  </ul>
+</main>
 </body>
+<footer>
+  <p>(c) 2022 Shape Up!</p>
+</footer>
 </html>
