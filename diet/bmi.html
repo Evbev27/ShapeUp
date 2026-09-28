@@ -52,19 +52,19 @@
      It can be used to determine if you are underweight, normal, overweight, or obese.</p>
   <h3>Calculate your Body Mass Index</h3>
   <p>Use the form that follows to calculate your BMI:</p>
-  <form>
     <fieldset>
       <legend><b>Enter your information</b></legend>
-      <br><label for="hgt">Height: </label>
-      <input type="text" id="hgt" size="8">
-      <label for="hgt">ft. </label>
-      <input type="text" id="inc" size="8">
-      <label for="inc">in. </label><br><br>
-      <label for="wgt">Weight: </label>
-      <input type="text" id="wgt" size="8">
-      <label for="wgt">lbs. </label><br><br>
+      <br><label for="feet">Height: </label>
+      <input type="text" id="feet" size="8">
+      <label for="feet">ft. </label>
+      <input type="text" id="inch" size="8">
+      <label for="inch">in. </label><br><br>
+      <label for="weight">Weight: </label>
+      <input type="text" id="weight" size="8">
+      <label for="weight">lbs. </label><br><br>
+      <label>BMI: </label><output id="bmi_result">?</output><br><br>
+      <input type="submit" value="calculate" id="calculate"><input type="reset"><br><br>
     </fieldset>
-  </form>
   <h3>What do my results mean? Health authorities agree that:</h3>
   <ul>
     <li>People with a BMI of less than 18.5 are underweight.</li>
@@ -73,6 +73,7 @@
     <li>People with a BMI over 30 are considered obese.</li>
   </ul>
 </main>
+<script src="../js/bmi.js"></script>
 </body>
 <footer>
   <p>(c) 2022 Shape Up!</p>
