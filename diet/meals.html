@@ -51,8 +51,71 @@
   <p>Fill out the form as completely as possible and we will email you a weekly meal plan, customized for you--<i>your</i>
     lifestyle, <i>your</i> goals and <i>your</i> personal needs.</p>
   <p>(Asterisks (*) indicated required entries.)</p>
+  <form action="meal_request.html">
+    <fieldset>
+      <legend><b>Tell us about yourself</b></legend><br>
+      <label for="fname">* Full Name: </label>
+      <input type="text" id="fname" required="required"><br><br>
+      <label for="emailAdr">* E-Mail: </label>
+      <input type="email" id="emailAdr" required="required"><br><br>
+      <label for="gend">Gender: </label>
+      <select id="gend">
+        <option>Select a gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br><br>
+      <label for="hgt">Height: </label>
+      <input type="text" id="hgt"><br><br>
+      <label for="wgt">Weight</label>
+      <input type="text" id="wgt"><br><br>
+      <label for="yourage">Age:</label>
+      <select id="yourage">
+        <option>Select your age</option>
+        <option>Under 20</option>
+        <option>20-40</option>
+        <option>41-60</option>
+        <option>Over 60</option>
+      </select>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend><b>Lifestyle and goals</b></legend>
+      <p>Which currently matches your present lifestyle</p>
+      <input type="radio"><label>Active</label>
+      <input type="radio"><label>Moderate</label>
+      <input type="radio"><label>Sedentary</label>
+      <p>Are you planning to increase your activity level as you change your diet</p>
+      <input type="radio"><label>Yes</label>
+      <input type="radio"><label>No</label>
+      <p>What are your weight goals?</p>
+      <input type="radio"><label>Gain weight</label>
+      <input type="radio"><label>Lose weight</label>
+      <input type="radio"><label>Maintain weight</label><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend><b>Food preferences and restrictions</b></legend>
+      <p>Do you have any dietary restrictions (select all that apply)</p>
+      <input type="checkbox"><label>Vegetarian</label>
+      <input type="checkbox"><label>Gluten-free</label>
+      <input type="checkbox"><label>Kosher</label>
+      <input type="checkbox"><label>Low salt</label>
+      <input type="checkbox"><label>Other, please explain</label>
+      <textarea cols="64" rows="5"></textarea><br>
+    </fieldset>
+    <fieldset>
+      <legend><b>Comments:</b></legend>
+      <p>Include any additional information that will help us develop a custom menu designed to match your lifestyle and goals</p>
+      <textarea cols="64" rows="5"></textarea><br>
+    </fieldset>
+    <fieldset>
+      <legend><b>Process your information</b></legend>
+      <br><input type="submit" value="Submit now"><input type="reset" value="Start over"><br>
+    </fieldset>
+  </form>
 </main>
 </body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <footer>
   <p>(c) 2022 Shape Up!</p>
 </footer>
